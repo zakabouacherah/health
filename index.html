@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be Healthy</title>
+    <link rel="icon" type="image/png" href="./img/3.png" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+  <!-- navbar -->
+  <nav class="navbar">
+    <div class="navbar-center">
+      <span class="nav-icon menu-icon">
+        <span class="material-symbols-outlined">menu</span>
+      </span>
+      <img src="./img/logo1.png" alt="logo" width="120px">
+      <div class="cart-btn">
+        <span class="nav-icon">
+          <span class="material-symbols-outlined">shopping_cart</span>
+        </span>
+        <div class="cart-items">0</div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- navbar End -->
+  <!-- hero -->
+  <header class="hero" id="hero">
+    <h1>stay healthy <span></span></h1>
+    <h1>The greatest wealth is health <span></span></h1>
+  </header>
+  <!-- hero End -->
+  <section id="services">
+    <div class="services container">
+      <div class="all-services">
+        <div class="healthy-food">
+          <h1 class="service-title">Healthy Food</h1>
+          <p class="service-des">In our store, you will find the essential meals for maintaining good health with the specific nutrients and calories that your body need. Here are some of the key reasons why healthy food is important :</p>
+          <div class="service-item">
+            <div class="service-info">
+              <h2>Provides Essential Nutrients</h2>
+              <p>
+                Healthy foods such as fruits, vegetables, whole grains, lean proteins, and healthy fats are rich in essential nutrients such as vitamins, minerals, fiber, and antioxidants. These nutrients are vital for the proper functioning of the body and support various bodily functions, including maintaining a healthy immune system, promoting healthy digestion, and maintaining healthy skin and hair.
+              </p>
+            </div>
+            <div class="service-img">
+              <img src="./img/healthy1.jpg" width="100%" alt="img">
+            </div>
+          </div>
+          <div class="service-item">
+            <div class="service-info">
+              <h2>Helps Control Weight</h2>
+              <p>
+                Eating a balanced diet can help control weight by providing the body with the right amount of calories and nutrients it needs. A diet that is high in unhealthy fats, added sugars, and processed foods can lead to weight gain and other health problems, such as obesity.
+              </p>
+            </div>
+            <div class="service-img">
+              <img src="./img/healthy2.jpg" width="100%" alt="img">
+            </div>
+          </div>
+          <div class="service-item">
+            <div class="service-info">
+              <h2>Boosts Energy Levels</h2>
+              <p>
+                Eating a healthy diet can help boost energy levels and improve overall well-being. Foods that are high in sugar and unhealthy fats can cause energy crashes and leave you feeling tired and sluggish.
+              </p>
+            </div>
+            <div class="service-img">
+              <img src="./img/healthy3.jpg" width="100%" alt="img">
+            </div>
+          </div>
+          <a href="./products.html"><button class="shop-now myBtn">
+            <span class="material-symbols-outlined">store</span>&nbsp
+            get some meals
+          </button></a>
+        </div>
+        <div class="coaching">
+          <h1 class="service-title">Work out coaching</h1>
+          <div class="service-body">
+            <div class="coaching-img">
+              <img src="./img/coaching1.jpg" alt="coaching" width="100%">
+            </div>
+            <div class="coaching-info">
+              <h2>make your body shape</h2>
+              <p>
+                Workout coaching involves working with a trained professional to develop a customized exercise program that meets your individual fitness goals and needs. Our coach can provide guidance on proper form, technique, and intensity levels to ensure you are working out safely and effectively.<span id="dots">..</span><span id="more"> He can also help you stay motivated and accountable, offering encouragement and feedback to help you push past obstacles and reach your goals. Whether you are a beginner or an experienced athlete, our coach can provide the support and expertise you need to maximize your workout potential and achieve optimal results.</span>
+                <button onclick="readMore()" id="myBtn">Read more</button>
+              </p>
+              <button class="pricing-btn"><a href="./index.html">Our special plan</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- cart -->
+  <div class="cart-overlay">
+    <div class="cart">
+      <span class="close-cart">
+        <span class="material-symbols-outlined">
+          close
+        </span>
+      </span>
+      <h2>your cart</h2>
+      <div class="cart-content">
+        <!-- <div class="cart-item">
+          
+        </div> -->
+      </div>
+      <div class="cart-footer">
+        <h3>Your total : <span class="cart-total">0</span> DH </h3>
+        <button class="clear-cart myBtn">
+          clear cart
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-- cart end -->
+  <div class="menu">
+    <span class="material-symbols-outlined close-menu">
+      close
+    </span>
+    <ul>
+      <li class="menu-item"><a href="./index.html">Home</a></li>
+      <li class="menu-item"><a href="#services">Services</a></li>
+      <li class="menu-item"><a href="./products.html">meals & dietary supplements</a></li>
+      <li class="menu-item"><a href="./coaching.html">Coaching</a></li>
+      <li class="menu-item"><a href="./about.html">About us</a></li>
+    </ul>
+  </div>
+  <!-- footer -->
+  <footer>
+    <div class="footer">
+      <div class="name">
+        Stay healthy
+      </div>
+      <div class="logo">
+        <img src="./img/logo1.png" alt="logo" width="200px">
+      </div>
+      <ul class="social-media">
+        <li title="instagram">
+          <a href="#">
+            <img src="https://img.icons8.com/material/24/null/instagram-new--v1.png"/>
+          </a>
+        </li>
+        <li title="facebook">
+          <a href="#">
+            <img src="https://img.icons8.com/material/24/null/facebook-new.png"/>
+          </a>
+        </li>
+        <li title="youtube">
+          <a href="#">
+            <img src="https://img.icons8.com/material/24/null/youtube--v1.png"/>
+          </a>
+        </li>
+        <li title="tiktok">
+          <a href="#">
+            <img src="https://img.icons8.com/material/24/null/tiktok.png"/>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="copyright">
+      © Bouash 2023 copyright
+    </div>
+  </footer>
+  <!-- footer end -->
+
+
+  <script src="./main.js"></script>
+</body>
+</html>
